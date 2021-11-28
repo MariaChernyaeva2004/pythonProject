@@ -1,5 +1,5 @@
 import sys
-from PyQt5.QtWidgets import QWidget, QLabel, QPushButton, QLineEdit, QApplication, QCheckBox, QPlainTextEdit
+from PyQt5.QtWidgets import QWidget, QPushButton, QApplication, QCheckBox, QPlainTextEdit
 from PyQt5.QtCore import Qt
 
 
