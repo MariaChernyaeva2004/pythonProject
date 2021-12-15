@@ -10,7 +10,6 @@ class Example(QWidget):
         self.setGeometry(300, 300, 420, 400)
         self.setWindowTitle('Заказ в Макдональдсе')
 
-        #  меню
         menu = ['Чизбургер', "Гамбургер", 'Кока-кола', 'Нагетсы']
         x = 0
         for v in menu:
@@ -21,14 +20,13 @@ class Example(QWidget):
             x = x + 20
             self.btn.stateChanged.connect(self.run)
         self.out = []
-        # кнопка
+
         self.knop = QPushButton(self)
         self.knop.setText('Заказать')
         self.knop.resize(70, 30)
         self.knop.move(50, 100)
         self.knop.clicked.connect(self.prt)
 
-        # Add text field
         self.b = QPlainTextEdit(self)
         self.b.insertPlainText(' ')
         self.b.setEnabled(False)
